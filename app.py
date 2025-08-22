@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
-from numba import int32
 from streamlit import container
 
 st.set_page_config(layout='wide')
@@ -392,3 +391,4 @@ else:
     btn2 = st.sidebar.button('Find details')
     if btn2:
         load_investor_analysis(selected_investor)
+
